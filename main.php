@@ -16,19 +16,36 @@ if (!$db_selected) {
   die('cannot use database' . DB_NAME . ': ' . mysql_error);
 }
 
-$name = $_POST['name'];
-$email = $_POST['email'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
+$name = null;
+$email = null;
+$subject = null;
+$message = null;
+$success = null;
 
-$sql = "INSERT INTO web_messages (name, email, subject, message)
-        VALUES ('$name', '$email', '$subject', '$message')";
-
-if (!mysql_query($sql)) {
-  die('cannot save data' . mysql_error());
+if (isset($_POST['name'])) {
+  $name = $_POST['name'];
+}
+if (isset($_POST['email'])) {
+  $email = $_POST['email'];
+}
+if (isset($_POST['subject'])) {
+  $subject = $_POST['subject'];
+}
+if (isset($_POST['message'])) {
+  $message = $_POST['message'];
 }
 
-echo 'success!!';
+if ($name != null && $email != null &&
+ $subject != null && $message != null) {
+   $sql = "INSERT INTO web_messages (name, email, subject, message)
+           VALUES ('$name', '$email', '$subject', '$message')";
+  $success = "<p id='success'> Success!! </p>";
+   if (!mysql_query($sql)) {
+     die('cannot save data' . mysql_error());
+   } else {
+     $success = "<p id='success'> Success!! </p>";
+   }
+}
 
 mysql_close();
 

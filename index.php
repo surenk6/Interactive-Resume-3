@@ -216,13 +216,21 @@
             </div>
         </div>
         <div class="contact-form">
-            <form action="main.php" method="post">
+            <?php  require_once('main.php');  ?>
+            <form action="<?=$_SERVER['PHP_SELF'];?>" method="POST">
                 <input id="contact-name" type="text" name="name" placeholder="Name">
                 <input id="contact-email" type="email" name="email" placeholder="Email">
                 <input id="contact-subject" type="text" name="subject" placeholder="Subject">
                 <textarea id="contact-text" name="message" placeholder="Message"></textarea>
                 <input id="contact-submit" type="submit">
             </form>
+        </div>
+        <div class="contact-success">
+          <?php
+            if ($success != null) {
+              echo $success;
+            }
+          ?>
         </div>
     </section>
     <!-- Footer section starts here -->
