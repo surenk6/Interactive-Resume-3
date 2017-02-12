@@ -65,9 +65,9 @@
                 </svg>
               </li>
               <li><a href="#contact" id="#nav-contact">Contact</a></li>
-              <li><a href="about-me.html" id="#nav-about-me">About</a></li>
-              <li><a href="resume.html" id="#nav-resume">Resume</a></li>
-              <li><a href="work.html" id="#nav-portfolio">Work</a></li>
+              <li><a href="about-me.php" id="#nav-about-me">About</a></li>
+              <li><a href="resume.php" id="#nav-resume">Resume</a></li>
+              <li><a href="work.php" id="#nav-portfolio">Work</a></li>
           </ul>
       </nav>
   </div>
@@ -96,9 +96,9 @@
                    </g>
                 </svg>
               </li>
-              <li><a href="work.html" id="#nav-portfolio">Work</a></li>
-              <li><a href="resume.html" id="#nav-resume">Resume</a></li>
-              <li><a href="about-me.html" id="#nav-about-me">About</a></li>
+              <li><a href="work.php" id="#nav-portfolio">Work</a></li>
+              <li><a href="resume.php" id="#nav-resume">Resume</a></li>
+              <li><a href="about-me.php" id="#nav-about-me">About</a></li>
               <li><a href="#contact" id="#nav-contact">Contact</a></li>
             </ul>
         </div>

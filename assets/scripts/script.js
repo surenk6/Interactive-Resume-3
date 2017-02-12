@@ -83,9 +83,9 @@ $(document).ready(function(){
     } else if ( scrollPos == 0) {
       $('.navigation-visible').removeClass('navigation-visible');
     }
-      /*remains on the same place on the page when submitting a message on contact form*/
+  /*remains on the same place on the page when submitting a message on contact form*/
     $('#contact-submit').click(function(){
-      $(window).scrollTop(scrollPos);
+      $('html').scrollTop(scrollPos);
     })
   })
   /*$('.header-navigation').on('inview', function(event, isInView){
