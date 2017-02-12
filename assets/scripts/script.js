@@ -12,11 +12,11 @@ $(document).ready(function(){
 
   /* burger menu and personal logo get white when hovering over nav menu*/
   $('.toggler').hover(function(){
-      $('.nav-burger-item').css('background-color','white');
-      $('.personal-logo svg path').css('fill','white');
+      $('.nav-burger-item').css('background-color','#f6f1ed');
+      $('.personal-logo svg path').css('fill','#f6f1ed');
     }, function(){
-      $('.nav-burger-item').css('background-color','black');
-      $('.personal-logo svg path').css('fill','black');
+      $('.nav-burger-item').css('background-color','#30231d');
+      $('.personal-logo svg path').css('fill','#30231d');
   })
 
   /* narrow screen menu open animation*/

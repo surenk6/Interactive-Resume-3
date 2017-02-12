@@ -1,7 +1,8 @@
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  color: #182153;
+  color: #42434B;
+  background-color: #F9FAFC;
 }
 
 body.no-scroll{
@@ -31,7 +32,7 @@ h3{
   font-weight: 300;
   margin-top: 0;
   margin-bottom: 0;
-  color: #aaaaaa;
+  color: #42434B;
 }
 
 h4{
@@ -50,24 +51,25 @@ a{
 }
 
 .header{
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
   height: 100vh;
 }
 
 #header-work{
   height: auto;
   background-image: none;
-  box-shadow: 0 1px 3px 0 #ddd;
+  box-shadow: 0 1px 3px 0 #42434B;
 }
 
 .navigation{
   position: fixed;
-  background-color: white;
+  background-color: #F9FAFC;
   width: 100%;
   z-index: 2;
   opacity: 0;
   overflow: hidden;
-  box-shadow: 0 1px 3px 0 #ddd;
+  box-shadow: 0 1px 3px 0 #42434B;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
   transition: padding-top 200ms,
@@ -92,7 +94,14 @@ a{
 }
 
 .navigation ul li a:hover{
-  color: orange;
+  color: #F8693A;
+}
+
+.navigation ul li a#nav-contact{
+  border: 2px solid #F8693A;
+  background-color: #F8693A;
+  border-radius: 1em;
+  color: #F9FAFC;
 }
 
 .navigation-visible{
@@ -113,7 +122,7 @@ a{
   }
 
 .navigation-element-onView{
-  color: orange;
+  color: #F8693A;
 }
 
 nav{
@@ -151,7 +160,7 @@ nav li{
 }
 
 #header-work-navigation ul li a{
-  color: black;
+  color: #42434B;
 }
 
 div.header-navigation ul{
@@ -179,7 +188,7 @@ div.header-navigation ul{
 }
 
 #landing-page-logo svg path{
-  fill: white;
+  fill: #F9FAFC;
 }
 
 div.header-navigation ul li{
@@ -195,11 +204,11 @@ div.header-navigation ul li a{
   justify-content: center;
   padding: 0.5em;
   border: 2px solid rgba(0, 0, 0, 0);
-  color: white;
+  color: #F9FAFC;
 }
 
 div.header-navigation ul li a:hover{
-  color: orange;
+  color: #F8693A;
 }
 
 @media screen and (max-width: 600px) {
@@ -220,7 +229,7 @@ div.header-navigation ul li a:hover{
   .toggler{
     height: 3.33em;
     width: 100%;
-    box-shadow: 0 0 3px 0 #ddd;
+    box-shadow: 0 0 3px 0 #42434B;
     display: block;
   }
   .toggler a{
@@ -237,9 +246,9 @@ div.header-navigation ul li a:hover{
     font-weight: 700;
   }
   .toggler:hover{
-    background-color: orange;
-    color: white;
-    fill: white;
+    background-color: #F8693A;
+    color: #42434B;
+    fill: #42434B;
   }
   .visible{
     max-height: 20em;
@@ -259,9 +268,9 @@ div.header-navigation ul li a:hover{
     border: none;
   }
   .navigation ul li a:hover{
-    background-color: orange;
-    box-shadow: 0 0 3px 0 #ddd;
-    color: white;
+    background-color: #F8693A;
+    box-shadow: 0 0 3px 0 #42434B;
+    color: #F9FAFC;
   }
   .personal-logo{
     display: none;
@@ -287,7 +296,7 @@ div.header-navigation ul li a:hover{
   }
   .nav-burger-item{
     display: block;
-    background-color: black;
+    background-color: #42434B;
     width: 100%;
     border-radius: 5px;
     position: absolute;
@@ -326,7 +335,7 @@ div.header-navigation ul li a:hover{
 }
 
 .header {
-  background-image: url("assets/images/port (3).jpg");
+  background-image: url("assets/images/header.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -347,7 +356,7 @@ div.header-navigation ul li a:hover{
 
 .name{
   font-size: 3em;
-  color: white;
+  color: #F9FAFC;
   text-transform: uppercase;
   margin: 2%;
   font-weight: 100;
@@ -359,10 +368,11 @@ div.header-navigation ul li a:hover{
 
 strong{
   font-weight: bold;
+  color: #F8693A;
 }
 
 .title{
-  color: #cfcfcf;
+  color: #42434B;
 }
 
 .experience{
@@ -397,7 +407,7 @@ strong{
   line-height: 1em;
   margin-top: -0.25em;
   float: right;
-  color: #a8c1e3;
+  color: #42434B;
 }
 
 .education-dot{
@@ -407,7 +417,7 @@ strong{
   margin-top: -0.25em;
   margin-left: 0.08em;
   float: left;
-  color: #a8c1e3;
+  color: #42434B;
 }
 
 .work h2, h3, h4{
@@ -612,7 +622,7 @@ section.portfolio h2{
 }
 
 .program-name{
-  color: white;
+  color: #F9FAFC;
   font-size: 2em;
   position: absolute;
   top: 0;
@@ -639,7 +649,7 @@ section.portfolio h2{
 }
 
 .program-hover-content{
-  color: white;
+  color: #F9FAFC;
   font-size: 1em;
   position: absolute;
   top: 0;
@@ -735,9 +745,9 @@ section.portfolio h2{
   left: 0;
   right: 0;
   bottom: 0;
-  box-shadow: 0 0 8px 0 #ddd;
+  box-shadow: 0 0 8px 0 #42434B;
   box-sizing: border-box;
-  background-color: white;
+  background-color: #F9FAFC;
 }
 
 .portfolio-content-visible{
@@ -752,7 +762,7 @@ section.portfolio h2{
   justify-content: space-between;
   width: 100%;
   clear: both;
-  box-shadow: 0 2px 5px 0 #ddd;
+  box-shadow: 0 2px 5px 0 #42434B;
   height: 8%;
 }
 
@@ -785,7 +795,7 @@ section.portfolio h2{
 
 .content-footer{
   width: 100%;
-  box-shadow: 0 -2px 5px 0 #ddd;
+  box-shadow: 0 -2px 5px 0 #42434B;
   bottom: 0;
   left: 0;
   display: inline-block;
@@ -797,7 +807,7 @@ section.portfolio h2{
 .content-close-button{
   display: inline-block;
   margin: 0.5em;
-  border: 1px solid black;
+  border: 1px solid #42434B;
   border-radius: 0.4em;
   cursor: pointer;
 }
@@ -854,12 +864,12 @@ section.portfolio h2{
 }
 
 .testimonial-left:hover{
-  fill: orange;
+  fill: #F8693A;
   transition: fill 200ms;
 }
 
 .testimonial-right:hover{
-  fill: orange;
+  fill: #F8693A;
   transition: fill 200ms;
 }
 
@@ -899,7 +909,7 @@ div.testimoner-photo img{
   top: -1em;
   opacity: 0.3;
   z-index: 0;
-  fill: orange;
+  fill: #F8693A;
 }
 
 .quote-right{
@@ -910,7 +920,7 @@ div.testimoner-photo img{
   bottom: -1em;
   opacity: 0.3;
   z-index: 0;
-  fill: orange;
+  fill: #F8693A;
 }
 
 .testimony-content{
@@ -969,19 +979,51 @@ div.testimoner-photo img{
   height: 1em;
   width: 1em;
   display: inline-block;
-  background-color: #999;
+  background-color: #F8693A;
   border-radius: 50%;
 }
 
 .testimonial-star-active{
-  background-color: orange;
+  background-color: #42434B;
 }
 
+.contact-section{
+  position: fixed;
+  z-index: 10;
+  overflow-y: scroll;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  width: 0;
+  transition: opacity 400ms;
+}
+.contact-section-visible{
+  transition: opacity 400ms;
+  width: 100%;
+  opacity: 1;
+}
 .contact{
+  position: relative;
   text-align: center;
-  overflow: hidden;
+  margin: 12vh 20%;
+  background-color: #F9FAFC;
+  border-radius: 1em;
 }
 
+.contact-header-x{
+  position: absolute;
+  top: 2.33em;
+  right: 2em;
+}
+
+.contact-header-x svg{
+  height: 2em;
+  width: 2em;
+  display: block;
+}
 .contact > p{
   text-align: center;
 }
@@ -1031,15 +1073,8 @@ div.testimoner-photo img{
   margin: 0.5em 5%;
 }
 
-@media screen and (max-width: 500px) {
-  .contact-info{
-    text-align: center;
-    display: block;
-  }
-}
-
 .contact-form{
-  padding: 3em 5%;
+  padding: 2em 5%;
   width: 80%;
   max-width: 50em;
   display: inline-block;
@@ -1054,11 +1089,11 @@ input, textarea{
   width: 99%;
   display: inline-block;
   padding-right: 0;
-  margin: 1em 0;
+  margin: 0.25em 0;
 }
 
 textarea{
-  height: 10em;
+  height: 20vh;
 }
 
 #contact-text{
@@ -1071,6 +1106,25 @@ textarea{
 }
 
 @media screen and (max-width: 640px) {
+  .contact{
+    margin: 5vh 10%;
+  }
+  section.contact > h1{
+    padding: 0.5em 0 0.5em 0;
+  }
+  .contact-info{
+    text-align: center;
+    display: block;
+  }
+  .email{
+    margin: 0.1em;
+  }
+  .phone{
+    margin: 0.1em;
+  }
+  .contact-form{
+    padding: 1em 5%;
+  }
   #contact-submit{
     width: 100%;
   }
