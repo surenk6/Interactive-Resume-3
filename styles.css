@@ -62,34 +62,42 @@ a{
   box-shadow: 0 1px 3px 0 #42434B;
 }
 
+.top-empty{
+  height: 6em;
+}
+
 .navigation{
   position: fixed;
   background-color: #F9FAFC;
   width: 100%;
   z-index: 2;
-  opacity: 0;
   overflow: hidden;
   box-shadow: 0 1px 3px 0 #42434B;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  box-sizing: border-box;
   transition: padding-top 200ms,
-              padding-bottom 200ms,
-              opacity 50ms 100ms;
+              padding-bottom 200ms;
+}
+
+.navigation ul{
+
 }
 
 .navigation ul li{
   overflow: visible;
   padding: 0;
-  margin-top: 0.75em;
-  margin-bottom: 0.75em;
+  margin-top: 1.1em;
+  margin-bottom: 1.1em;
   margin-right: 3%;
+  box-sizing: border-box;
 }
 
 .navigation ul li a{
   text-align: center;
   height: 100%;
   width: 100%;
-  padding: 0.5em;
+  padding: 0.25em;
   border: 2px solid rgba(0, 0, 0, 0);
 }
 
@@ -97,25 +105,26 @@ a{
   color: #F8693A;
 }
 
-.navigation ul li a#nav-contact{
+.navigation a#nav-contact{
   border: 2px solid #F8693A;
   background-color: #F8693A;
-  border-radius: 1em;
+  border-radius: 2em;
+  padding: 0.25em;
+  margin: auto 0.5em;
   color: #F9FAFC;
 }
 
 .navigation-visible{
-  opacity: 1;
   padding-top: 0;
   padding-bottom: 0;
-  transition: opacity 300ms,
-              padding-top 400ms,
+  transition: padding-top 400ms,
               padding-bottom 400ms;
 }
 
 .navigation-visible .personal-logo svg{
     width: 2.5em;
     height: 2.5em;
+    margin: 0;
     transition:
       width 400ms,
       height 400ms;
@@ -151,10 +160,6 @@ nav li{
   box-sizing: border-box;
 }
 
-.header-navigation{
-  padding: 2em 2% 2em 0;
-}
-
 #header-work-navigation {
   padding: 2em 2% 2em 0;
 }
@@ -174,13 +179,15 @@ div.header-navigation ul{
 .personal-logo{
   display: inline-flex;
   align-items: center;
-  position: absolute;
-  left: 2em;
+  float: left;
+  margin-left: 2em;
+  margin-top: 0.9em !important;
+  margin-bottom: 0.9em !important;
 }
 
 .personal-logo svg{
-  width: 3em;
-  height: 3em;
+  width: 2.5em;
+  height: 2.5em;
   float: left;
   transition:
     width 400ms,
@@ -266,10 +273,26 @@ div.header-navigation ul li a:hover{
   }
   .navigation ul li a{
     border: none;
+    padding: 0.75em;
+    box-sizing: border-box;
   }
   .navigation ul li a:hover{
     background-color: #F8693A;
     box-shadow: 0 0 3px 0 #42434B;
+    color: #F9FAFC;
+  }
+  .navigation a#nav-contact{
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0.75em;
+    border-radius: 0;
+    margin: auto 0;
+    color: #42434B;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  .navigation a#nav-contact:hover{
+    background-color: #F8693A;
     color: #F9FAFC;
   }
   .personal-logo{
@@ -996,8 +1019,8 @@ div.testimoner-photo img{
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  width: 0;
+  opacity: 1;
+  width: 100%;
   transition: opacity 400ms;
 }
 .contact-section-visible{
