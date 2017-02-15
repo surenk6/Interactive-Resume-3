@@ -24,7 +24,39 @@
                   <div class="program-name">
                       <h2>bringing joy and stuff to some people somewhere</h2></div>
                       <div class="program-hover-content">
-                        <span>Click to explore the<br><strong>FLEX Alumni Armenia Mentoring Program</strong></span>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 42 42" style="enable-background:new 0 0 42 42;" xml:space="preserve" width="512px" height="512px">
+                          <polygon points="42,20 22,20 22,0 20,0 20,20 0,20 0,22 20,22 20,42 22,42 22,22 42,22 " fill="#FFFFFF"/>
+                          <g>
+                          </g>
+                          <g>
+                          </g>
+                          <g>
+                          </g>
+                          <g>
+                          </g>
+                          <g>
+                          </g>
+                          <g>
+                          </g>
+                          <g>
+                          </g>
+                          <g>
+                          </g>
+                          <g>
+                          </g>
+                          <g>
+                          </g>
+                          <g>
+                          </g>
+                          <g>
+                          </g>
+                          <g>
+                          </g>
+                          <g>
+                          </g>
+                          <g>
+                          </g>
+                        </svg>
                     </div>
                 </div>
             </div>

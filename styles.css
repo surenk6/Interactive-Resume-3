@@ -614,6 +614,7 @@ li{
 section.portfolio{
   width: 100%;
   overflow: auto;
+  box-sizing: border-box;
 }
 
 section.portfolio h2{
@@ -621,10 +622,11 @@ section.portfolio h2{
 }
 
 .program{
+  box-sizing: border-box;
   position: relative;
   display: inline-block;
-  margin: 0;
-  width: 50%;
+  margin: 0.5%;
+  width: 49%;
   height: 18em;
   background-size: cover;
   background-position: center;
@@ -637,6 +639,7 @@ section.portfolio h2{
 .program-hover{
   background-color: rgba(100, 50, 50, 0);
   position: absolute;
+  box-sizing: border-box;
   top: 0;
   bottom: 0;
   left: 0;
@@ -673,25 +676,27 @@ section.portfolio h2{
 
 .program-hover-content{
   color: #F9FAFC;
+  background-color: rgba(248,105,58, 0.7);
   font-size: 1em;
-  position: absolute;
-  top: 0;
-  bottom: -30%;
-  left: 0;
-  right: 0;
+  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: center;
   padding: 10%;
   opacity: 0;
   transition:
-    opacity 400ms,
-    bottom 400ms;
+    opacity 400ms;
 }
 
-.program-hover-content strong{
-  text-transform: uppercase;
-  font-size: 2em;
+.program-hover-content svg {
+  height: 3em;
+  width: 3em;
+}
+
+.program-hover-content svg path{
+  fill: #F9FAFC;
 }
 
 #program1{
@@ -705,8 +710,8 @@ section.portfolio h2{
 .project{
   display: inline-block;
   position: relative;
-  width: 25%;
-  margin: 0;
+  width: 24%;
+  margin: 0.5%;
   height: 18em;
   background-size: cover;
   background-position: center;
@@ -722,7 +727,7 @@ section.portfolio h2{
 
 #project2{
   background-image: url("assets/images/port (4).jpg");
-  width: 50%;
+  width: 48%;
 }
 
 #project3{
@@ -731,7 +736,7 @@ section.portfolio h2{
 
 #project4{
   background-image: url("assets/images/port (6).jpg");
-  width: 50%;
+  width: 48%;
 }
 
 #project5{
@@ -744,15 +749,15 @@ section.portfolio h2{
 
 @media screen and (max-width: 900px) {
   .program{
-    width: 100%;
+    width: 98%;
   }
   .project{
-    width: 50%;
+    width: 48%;
   }
 }
 @media screen and (max-width: 500px) {
   .project{
-    width: 100% !important;
+    width: 98% !important;
   }
 }
 
@@ -1019,8 +1024,8 @@ div.testimoner-photo img{
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.3);
-  opacity: 1;
-  width: 100%;
+  opacity: 0;
+  width: 0;
   transition: opacity 400ms;
 }
 .contact-section-visible{

@@ -100,29 +100,29 @@ $(document).ready(function(){
 
   /* portfolio section animations*/
   $(".project").hover(function(){
-      $(this).find(".project-silde").css("top", "0%");
+      //$(this).find(".project-silde").css("top", "0%");
       $(this).find("span").css("opacity", "1");
     }, function(){
-      $(this).find(".project-silde").css("top", "75%");
+      //$(this).find(".project-silde").css("top", "75%");
       $(this).find("span").css("opacity", "0");
   })
   $(".program").hover(function(){
-      $(this).find(".program-silde").css("top", "0%");
+      //$(this).find(".program-silde").css("top", "0%");
       $(this).find("span").css("opacity", "1");
     }, function(){
-      $(this).find(".program-silde").css("top", "75%");
+      //$(this).find(".program-silde").css("top", "75%");
       $(this).find("span").css("opacity", "0");
   })
   $('.program-hover').hover(function(){
       $(this).find('.program-name').css('opacity', '0');
-      $(this).find('.program-name').css('bottom', '20%');
+      //$(this).find('.program-name').css('bottom', '20%');
       $(this).find('.program-hover-content').css('opacity', '1');
-      $(this).find('.program-hover-content').css('bottom', '0');
+      //$(this).find('.program-hover-content').css('bottom', '0');
     }, function(){
       $(this).find('.program-name').css('opacity', '1');
-      $(this).find('.program-name').css('bottom', '0');
+      //$(this).find('.program-name').css('bottom', '0');
       $(this).find('.program-hover-content').css('opacity', '0');
-      $(this).find('.program-hover-content').css('bottom', '-30%');
+      //$(this).find('.program-hover-content').css('bottom', '-30%');
   })
 
 
