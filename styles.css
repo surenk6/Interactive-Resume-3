@@ -118,6 +118,7 @@ a{
   padding: 0.25em;
   margin: auto 0.5em;
   color: #F9FAFC;
+  cursor: pointer;
 }
 
 .navigation-visible{

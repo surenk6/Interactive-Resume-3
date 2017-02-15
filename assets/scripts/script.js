@@ -172,5 +172,11 @@ $(document).ready(function(){
     $('body').removeClass('no-scroll');
   })
 
+//contact button
+  $('#nav-contact').click(function(){
+    $('.contact-section').css('width', 'auto');
+    $('.contact-section').css('opacity', '1');
+  });
+
     /* end*/
 })

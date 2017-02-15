@@ -96,7 +96,7 @@
                    </g>
                 </svg>
               </li>
-              <li><a href="" id="nav-contact">Contact</a></li>
+              <li><a id="nav-contact">Contact</a></li>
               <li><a href="about-me.php" id="nav-about-me">About</a></li>
               <li><a href="resume.php" id="nav-resume">Resume</a></li>
               <li><a href="work.php" id="nav-portfolio">Work</a></li>
