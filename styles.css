@@ -1081,6 +1081,7 @@ div.testimoner-photo img{
   position: absolute;
   top: 2.33em;
   right: 2em;
+  cursor: pointer;
 }
 
 .contact-header-x svg{

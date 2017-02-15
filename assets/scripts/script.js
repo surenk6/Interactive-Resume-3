@@ -173,10 +173,11 @@ $(document).ready(function(){
   })
 
 //contact button
-  $('#nav-contact').click(function(){
-    $('.contact-section').css('width', 'auto');
-    $('.contact-section').css('opacity', '1');
+  $('a#nav-contact').click(function(){
+    $('.contact-section').toggleClass('contact-section-visible');
   });
-
+  $('.contact-header-x').click(function() {
+    $('.contact-section').toggleClass('contact-section-visible');
+  })
     /* end*/
 })
