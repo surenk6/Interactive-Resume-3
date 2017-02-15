@@ -14,7 +14,7 @@
 
 <body>
 
-    <div class="landing-page-navigation">
+    <div class="navigation landing-page-navigation">
       <nav>
           <div class="toggler">
               <a>
@@ -74,7 +74,7 @@
 
     <!-- Header section starts here -->
     <section class="header">
-        <div class="top-empty"></div>
+        <div class="top-empty" id="landing-page-top-empty"></div>
         <div class="header-navigation">
             <ul>
               <li class="personal-logo" id='landing-page-logo'>
@@ -96,10 +96,10 @@
                    </g>
                 </svg>
               </li>
-              <li><a href="work.php" id="nav-portfolio">Work</a></li>
-              <li><a href="resume.php" id="nav-resume">Resume</a></li>
+              <li><a href="" id="nav-contact">Contact</a></li>
               <li><a href="about-me.php" id="nav-about-me">About</a></li>
-              <li><a href="#contact" id="nav-contact">Contact</a></li>
+              <li><a href="resume.php" id="nav-resume">Resume</a></li>
+              <li><a href="work.php" id="nav-portfolio">Work</a></li>
             </ul>
         </div>
         <div class="name-wrap">
