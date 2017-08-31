@@ -9,7 +9,7 @@
                      <defs>
                       <style type="text/css">
                        <![CDATA[
-                        .fil0 {fill:#373435}
+                        .fill {fill:#373435}
                        ]]>
                       </style>
                      </defs>
@@ -30,7 +30,7 @@
         </div>
         <ul>
             <li class="personal-logo">
-              <a href="index.php">
+              <a href="/index.php">
                 <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2550px" height="3300px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
                 viewBox="0 0 2550 3300"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -51,9 +51,9 @@
               </a>
             </li>
             <li><a href="#contact" id="nav-contact">Contact</a></li>
-            <li><a href="about-me.php" id="nav-about-me">About</a></li>
-            <li><a href="resume.php" id="nav-resume">Resume</a></li>
-            <li><a href="work.php" id="nav-portfolio">Work</a></li>
+            <li><a href="/about-me.php" id="nav-about-me">About</a></li>
+            <li><a href="/resume.php" id="nav-resume">Resume</a></li>
+            <li><a href="/work.php" id="nav-portfolio">Work</a></li>
         </ul>
     </nav>
 </div>

@@ -1,14 +1,22 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <title>Suren Karapetyan</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<base href="http://surenkarapetyan.ga/work.php">
+	<meta name="description" content="Hi, Suren Karapetyan a Project Manager with experience in the IT and Development sectors and an agile enthusiast.">
+	  <meta name="robots" content="index,follow"><!-- All Search Engines -->
+  <meta name="googlebot" content="index,follow"><!-- Google Specific -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
     <script type="text/javascript" src="assets/scripts/jquery-3.1.1.js"></script>
     <script type="text/javascript" src="assets/scripts/jquery.inview.min.js"></script>
     <script type="text/javascript" src="assets/scripts/jquery-ui.js"></script>
     <script type="text/javascript" src="assets/scripts/script.js"></script>
+	<?php include_once("ga.php") ?>
     <meta name="viewport" content="width=device-width">
 </head>
 

@@ -2,10 +2,10 @@
 
 //connects to sql
 
-define('DB_NAME', 'rfgd_20418698_interactive_resume_3');
-define('DB_USER', 'rfgd_20418698');
-define('DB_PASSWORD', '1vHYsFhZ');
-define('DB_HOST', 'sql301.rf.gd');
+define('DB_NAME', 'interactive_resume_3');
+define('DB_USER', 'surenk6');
+define('DB_PASSWORD', 'Kjkszpj12');
+define('DB_HOST', 'localhost');
 define('MY_EMAIL', 'surenakar@gmail.com');
 
 $connection = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);

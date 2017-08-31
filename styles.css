@@ -218,7 +218,6 @@ div.header-navigation ul li{
 }
 
 div.header-navigation ul li a{
-  padding: 0.5em;
   border: 2px solid rgba(0, 0, 0, 0);
   color: #F9FAFC;
   display: inline-block;
@@ -627,7 +626,7 @@ li{
   width: 1em;
   background-image: url("assets/icons/stat-positive.png");
   background-size: contain;
-  border: 0px solid;
+  border: 0 solid;
 }
 
 .img-negative{
